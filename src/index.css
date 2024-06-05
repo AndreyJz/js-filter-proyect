@@ -21,6 +21,16 @@ body {
   min-height: 100vh;
 }
 
+.container{
+  display: flex;
+  gap: 1em;
+}
+
+button{
+  padding-inline: 2em;
+  padding-block: 1em;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
